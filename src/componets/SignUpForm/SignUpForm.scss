@@ -1,5 +1,5 @@
-// $primary-color : #FAA307;
-// $secondary-color : #1F1E1D;
+ $primary-color : #FAA307;
+ $secondary-color : #1F1E1D;
 
 form {
 display: flex;
@@ -9,14 +9,34 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin: 10px;
+
+    & label {
+      font-size: 20px;
+
+    }
+
+    & input {
+      margin: 0 auto;
+      width: 75%;
+      height: 35px;
+
+    }
+
+    & select {
+      margin: 0 auto;
+      width: 75%;
+      height: 35px;
+    }
   }
 
   & .submit-SignUp{
     background-color: $primary-color;
-    border: #FAA307;
+    border: $primary-color;
     border-radius: 15px;
     font-weight: bold;
     width: 60%;
     align-self: center;
+    margin-top: 10px;
   }
 }
