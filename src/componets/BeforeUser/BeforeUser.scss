@@ -1,3 +1,6 @@
+$primary-color : #FAA307;
+$secondary-color : #1F1E1D;
+
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 .beforeUser-Page {
@@ -60,5 +63,38 @@
       color: #FAA307;
       background-color: rgba(0, 0, 0, 0);
       border: 2px solid #FAA307;
+  }
+}
+
+.modal-container {
+  width: 60%;
+  max-width: 800px;
+  margin: 4rem auto;
+  background-color: #1F1E1D;
+  border: 2px solid #FAA307;
+  color: white;
+
+  & .modal-header{
+
+    & .close-Modal-Button{
+      color: #FAA307;
+      background-color: rgba(0, 0, 0, 0);
+      border: 2px solid #FAA307;
+      font-weight: bold;
+    }
+
+    & h2{}
+  }
+
+  & .modal-body{}
+
+  & .modal-footer{
+
+    & .cancelModal{
+      color: #FAA307;
+      background-color: rgba(0, 0, 0, 0);
+      border: 2px solid #FAA307;
+      font-weight: bold;
+    }
   }
 }
