@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import BeforeUser from './compoenets/BeforeUser/BeforeUser'
+import BeforeUser from './componets/BeforeUser/BeforeUser'
+
 
 function App() {
   return (
