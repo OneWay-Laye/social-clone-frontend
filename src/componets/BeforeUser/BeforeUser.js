@@ -1,8 +1,9 @@
 import React, { Fragment, useState } from 'react'
+import { withRouter } from 'react-router-dom'
 import style from './BeforeUser.scss'
 import { Button } from 'react-bootstrap'
-import SignUpForm from './../SignUpForm/SignUpForm'
-import SignInForm from './../SignInForm/SignInForm'
+import SignUpForm from './SignUpForm/SignUpForm'
+import SignInForm from './SignInForm/SignInForm'
 
 const BeforeUser = () => {
 
@@ -85,4 +86,4 @@ let userJsx = ''
   )
   }
 
-export default BeforeUser
+export default withRouter(BeforeUser)
